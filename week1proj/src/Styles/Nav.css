@@ -1,0 +1,110 @@
+@media only screen and (min-width: 600px){
+    li {
+        display: inline-block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    ul {
+        padding-top: 5%;
+        background-color: #A9D2DE;
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .search-label {
+        margin-left: 24%;
+        margin-right: 3px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .search-box {
+        
+        margin-left: 3px;
+        margin-right: 3px;
+    }
+    .search-button button{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        opacity: .7;
+    }
+    
+    .search-button button:hover {
+        opacity: 1;
+    }
+    .search-button {
+        margin-left: 3px;
+    }
+    input[type=text] {
+        width: 100%;
+        padding: 7px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    li {
+        display: block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    ul {
+        padding-top: 5%;
+        background-color: #A9D2DE;
+        padding-bottom: 4%;
+    }
+    a {
+        text-decoration: none;
+        font-size: 20px;
+    }
+    
+    .search-label {
+        width: 30%;
+        margin-left: 35%;
+        margin-right: 3px;
+        font-weight: bold;
+        font-size: 20px;
+    }
+    .search-box {
+        text-align: center;
+        width: 50%;
+        margin-left: 25%;
+    }
+    .search-button button{
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        opacity: .7;
+        width: 20%;
+        margin-left: 6%;
+    }
+    
+    .search-button button:hover {
+        opacity: 1;
+    }
+    .search-button {
+        margin-left: 3px;
+    }
+    input[type=text] {
+        width: 100%;
+        padding: 7px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        
+    }
+}
+

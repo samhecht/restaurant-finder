@@ -1,0 +1,30 @@
+
+@media only screen and (min-width: 600px){
+    .rest-info {
+        width: 25%;
+        margin: 2.2%;
+        display: inline-block;
+    }
+    .checked {
+        color: orange;
+    }
+    .myDolla {
+        color: #3D6D4B;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .rest-info {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        display: block;
+    }
+    .checked {
+        color: orange;
+    }
+
+    .myDolla {
+        color:#3D6D4B;
+    }
+}
